@@ -2,7 +2,11 @@ import React from 'react'
 
 function Introduction() {
   return (
-    <div>Introduction</div>
+    <div id='introduction' className='introduction'>
+      <img className='profile-pic' src='' alt=''></img>
+      <div className='contacts'></div> 
+      <div className='greetings'></div>
+    </div>
   )
 }
 
