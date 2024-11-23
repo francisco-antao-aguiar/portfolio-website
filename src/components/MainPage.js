@@ -6,8 +6,8 @@ import AboutMe from './AboutMe/AboutMe'
 
 function MainPage() {
     return ( 
-        <div>
-            <Header/>
+        <div className='mainpage'>
+        <Header/>
             <Introduction/>
             <Projects/>
             <AboutMe/>

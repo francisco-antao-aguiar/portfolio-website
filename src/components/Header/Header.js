@@ -6,7 +6,7 @@ function Header() {
     <header>
         <nav className="navbar">
           <a href="#" className="navbar-brand">
-            Full-Stack Developer
+            Portfolio
           </a>
           <ul className="navbar-nav">
             <li>
