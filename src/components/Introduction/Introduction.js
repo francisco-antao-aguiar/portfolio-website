@@ -13,24 +13,24 @@ function Introduction() {
       <img className='profile-pic' src={ProfilePic} alt='ProfilePic' width={300}></img>
       <div className='greetings'>Hi, my name is Francisco and I'm a Fullstack Developer</div>
       <div className='contacts'>
-          <div>
-            <img src={Email} width={40}></img>
+          <div className='contacts-entry'>
+            <img src={Email} height={40}></img>
             <span>francisco.antao.aguiar@gmail.com</span>  
           </div>
-          <div>
-            <img src={Telephone} width={40}></img>
+          <div className='contacts-entry'>
+            <img src={Telephone} height={40}></img>
             <span>+351 969622880</span>  
           </div>
-          <div>
-            <img src={Linkedin} width={40}></img>
+          <div className='contacts-entry'>
+            <img src={Linkedin} height={40}></img>
             <span>LinkedIn</span>  
           </div>
-          <div>
-            <img src={Github} width={40}></img>
+          <div className='contacts-entry'>
+            <img src={Github} height={40}></img>
             <span>GitHub</span>  
           </div>
-          <div>
-            <img src={Document} width={40}></img>
+          <div className='contacts-entry'>
+            <img src={Document} height={40}></img>
             <span>Download CV</span>
           </div>
       </div> 

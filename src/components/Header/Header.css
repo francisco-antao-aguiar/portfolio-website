@@ -1,7 +1,7 @@
 .navbar{
     font-family: 'Poppins', sans-serif;
-    background-color: #333;
-    padding: 1rem 2rem;
+    background-color: #272635;
+    padding: 1.5dvh 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,8 +9,8 @@
 
 .navbar-brand{
     font-family: 'Poppins', sans-serif;
-    color: #fff;
-    font-size: 1.5rem;
+    color: #E8E9F3;
+    font-size: 4dvh;
     font-weight: bold;
     text-decoration: none;
 }
@@ -30,7 +30,7 @@ li{
 
 a{
     font-family: 'Poppins', sans-serif;
-    color: #fff;
+    color: #E8E9F3;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;

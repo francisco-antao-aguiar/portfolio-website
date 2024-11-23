@@ -2,4 +2,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 3rem;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: #272635;
+    box-sizing: border-box;
+    background-color: #E8E9F3;
+    box-shadow: 0 0 12px 3px #A6A6A8;
+    height: fit-content;
+    overflow: hidden;
+    padding: 2.5rem;
+}
+
+.contacts-entry{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.contacts-entry span{
+    padding-left: 1rem;
+    font-size: 1.5rem;
 }
