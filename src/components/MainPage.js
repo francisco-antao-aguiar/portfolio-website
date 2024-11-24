@@ -11,6 +11,8 @@ function MainPage() {
       <Header />
       <div className="mainpage">
         <Introduction />
+        <Introduction />
+        <Introduction />
         <Projects />
         <AboutMe />
       </div>
